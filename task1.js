@@ -6,18 +6,10 @@ console.log(typeof changeA);
 let b = 10;
 let changeB = b.toString();
 console.log(typeof changeB);
-// string to float
-let c = "10.5";
-let changeC = parseFloat(c);
-console.log(typeof changeC);
 // to upper case
 let d = "hello";
 let changeD = d.toUpperCase();
 console.log(changeD);
-// to lower case
-let e = "HELLO";
-let changeE = e.toLowerCase();
-console.log(changeE);
 // to fixed
 let f = 10.56789;
 let changeF = f.toFixed(2);
@@ -46,3 +38,11 @@ console.log(j);
 let k = [1,2,3,4,5];
 let changeK = k.shift();
 console.log(k);
+// splice array
+let l = [1,2,3,4,5];
+let changeL = l.splice(2,2,6,7);
+console.log(l);
+// slice array
+let m = [1,2,3,4,5];
+let changeM = m.slice(2,4);
+console.log(changeM);
