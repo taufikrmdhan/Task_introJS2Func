@@ -15,5 +15,6 @@ function seleksiNilai(nilaiAwal, nilaiAkhir, dataArray) {
   } else {
     console.log("Nilai akhir harus lebih besar dari nilai awal");
   }
+  return;
 }
 seleksiNilai(4, 70, [2,  22, 9]);
