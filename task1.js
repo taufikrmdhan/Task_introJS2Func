@@ -16,7 +16,7 @@ let changeF = f.toFixed(2);
 console.log(changeF);
 // function match
 let g = "hello world";
-let changeG = g.match(/Hello/g); // case sensitive
+let changeG = g.match(/Hello/gi); // case sensitive
 console.log(changeG);
 let changeG1 = g.match(/hello/g);
 console.log(changeG1);
