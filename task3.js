@@ -17,4 +17,4 @@ function seleksiNilai(nilaiAwal, nilaiAkhir, dataArray) {
   }
   return;
 }
-seleksiNilai(4, 70, [2,  22, 9,5,6,7]);
+seleksiNilai(50, 70, [2,  22, 9,5,5,20]);

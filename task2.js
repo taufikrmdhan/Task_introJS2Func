@@ -1,8 +1,5 @@
-function displayResult(result, limit) {
-  console.log(result.slice(0, limit));
-}
-function searchName(keyword, limit, callback) {
-  const name = [
+function searchNama(kunci, batas, callback) {
+  const nama = [
     "Abigail",
     "Alexandra",
     "Alison",
@@ -20,7 +17,10 @@ function searchName(keyword, limit, callback) {
     "Olivia",
     "Penelope",
   ];
-  const result = name.filter((item) => item.toLowerCase().includes(keyword));
-  callback(result, limit);
+  const hasil = nama.filter((item) => item.toLowerCase().includes(kunci));
+  callback(hasil, batas);
 }
-searchName("an", 3, displayResult);
+tampilkanHasil = (hasil, batas) => {
+  console.log(hasil.slice(0, batas));
+}
+searchNama("an", 3, tampilkanHasil);
